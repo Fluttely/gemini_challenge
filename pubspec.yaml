@@ -27,8 +27,17 @@ flutter:
     - family: Poppins
       fonts:
         - asset: public/assets/fonts/Poppins/Poppins-Regular.ttf
-          weight: 500
+          weight: 400
           
     - family: Montserrat
       fonts:
-        - asset: public/assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf
+        - asset: public/assets/fonts/Montserrat/static/Montserrat-Regular.ttf
+          weight: 400
+        - asset: public/assets/fonts/Montserrat/static/Montserrat-Medium.ttf
+          weight: 500
+        - asset: public/assets/fonts/Montserrat/static/Montserrat-Semibold.ttf
+          weight: 600
+        - asset: public/assets/fonts/Montserrat/static/Montserrat-Bold.ttf
+          weight: 700
+        - asset: public/assets/fonts/Montserrat/static/Montserrat-ExtraBold.ttf
+          weight: 800
