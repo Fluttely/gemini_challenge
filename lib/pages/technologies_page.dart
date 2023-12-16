@@ -4,6 +4,7 @@ import 'package:gemini_challenge/components/gemini_app_bar.dart';
 import 'package:gemini_challenge/components/gemini_floating_navigation_bar.dart';
 import 'package:gemini_challenge/main.dart';
 import 'package:gemini_challenge/pages/components/technologies_area_1.dart';
+import 'package:gemini_challenge/pages/components/technologies_area_2.dart';
 import 'package:gemini_challenge/pages/components/technologies_area_3.dart';
 import 'package:gemini_challenge/pages/components/technologies_area_4.dart';
 
@@ -110,7 +111,7 @@ class _TecnologiesPageState extends State<TecnologiesPage>
                   if (index! < areaKeys.length) _scrollToKey(areaKeys[index]);
                 },
               ),
-              // const TechnologiesArea2(),
+              const TechnologiesArea2(),
               const TechnologiesArea3(),
               const TechnologiesArea4(),
             ],
