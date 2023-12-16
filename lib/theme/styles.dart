@@ -13,7 +13,7 @@ class GeminiTextStyles {
     height: 1,
     fontSize: 160,
     color: Colors.white,
-    fontWeight: FontWeight.w600,
+    fontWeight: FontWeight.w500,
     letterSpacing: -6,
   );
 }

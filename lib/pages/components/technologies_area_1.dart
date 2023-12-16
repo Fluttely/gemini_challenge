@@ -24,14 +24,12 @@ class TecnologiesArea1 extends StatelessWidget {
         height: MediaQuery.of(context).size.height - 200,
         decoration: const BoxDecoration(
           gradient: LinearGradient(
-            // center: Alignment.topCenter,
             begin: Alignment.topCenter,
             end: Alignment.bottomCenter,
             colors: [
               Colors.transparent,
               Colors.black,
             ],
-            // radius: 1.2,
           ),
         ),
         child: Center(

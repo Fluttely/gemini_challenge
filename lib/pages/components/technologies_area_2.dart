@@ -10,18 +10,18 @@ class TechnologiesArea2 extends StatelessWidget {
     return SliverToBoxAdapter(
       child: Container(
         key: GlobalKeys.area2Key,
-        height: MediaQuery.of(context).size.height - 100,
+        height: MediaQuery.of(context).size.height,
         color: Colors.black,
         padding: const EdgeInsets.fromLTRB(0, 128, 0, 32),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            // const SizedBox.shrink(),
             Text(
               'Gemini is built from the ground up for\nmultimodality — reasoning seamlessly\nacross text, images, video, audio, and code.',
               textAlign: TextAlign.center,
               style: GeminiTextStyles.bodyMedium.copyWith(
-                fontSize: 64,
+                fontSize: 52,
+                height: 0,
               ),
             ),
             Column(
@@ -57,7 +57,6 @@ class TechnologiesArea2 extends StatelessWidget {
                 ),
               ],
             ),
-            // const SizedBox.shrink(),
           ],
         ),
       ),
