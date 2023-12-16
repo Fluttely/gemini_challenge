@@ -21,6 +21,7 @@ class GeminiFloatingNavigationBar extends StatelessWidget {
       forceElevated: false,
       forceMaterialTransparency: false,
       titleSpacing: 0,
+      centerTitle: true,
       title: Container(
         padding: const EdgeInsets.all(12),
         decoration: BoxDecoration(
